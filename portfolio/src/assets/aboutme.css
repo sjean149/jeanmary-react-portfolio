@@ -1,0 +1,22 @@
+/* About Me Section */
+section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Profile Picture */
+  section img {
+    width: 150px; /* Shrink the image */
+    height: 150px; /* Set height to match width for a square */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    border: 3px solid #ccc; /* Optional: Add a border */
+    margin-bottom: 15px; /* Add space between image and text */
+  }
+  
+  /* Text Styling */
+  section p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  

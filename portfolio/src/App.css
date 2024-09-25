@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+
+}
+
+
+h1, 
+h4,
+p,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-active {
+  font-weight: bold;
+  color: blue;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* */
+/* Portfolio Section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual Project */
+.project {
+  width: 300px; /* Width of each project card */
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Project Image */
+.project img {
+  width: 100%; /* Make the image take full width of the project container */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 5px;
+}
+
+/* Project Title */
+.project h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* Project Links */
+.project a {
+  display: block;
+  margin-top: 5px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
